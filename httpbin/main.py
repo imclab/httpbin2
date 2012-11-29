@@ -20,9 +20,9 @@ app = Flask(__name__)
 app.debug = True
 
 
-@app.route('/')
-def hello():
-    return 'Examples....'
+# @app.route('/')
+# def hello():
+#     return 'Examples....'
 
 @app.errorhandler(404)
 def legacy_proxy(e):
